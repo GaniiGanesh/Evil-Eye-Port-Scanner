@@ -4,31 +4,36 @@ Evil-Eye Port Scanner is a simple, fast, and multi-threaded tool designed to sca
 
 
 
+  ## Installation
 
-Features
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/GaniiGanesh/Evil-Eye-Port-Scanner.git
+    ```
 
-  Scan a range of ports to find open ones.
+2. **Navigate to the project directory**:
+    ```bash
+    cd Evil-Eye-Port-Scanner
+    ```
 
-  Multi-threaded for faster scanning.
+3. **Install dependencies**:
 
-  User-friendly graphical interface built with Tkinter.
+    Although the tool does not require any external dependencies, if you want to set up the environment for development or additional packages in the future, you can use the following command to install dependencies listed in the `requirements.txt` (if any):
 
-  Allows input via both IP addresses and domain names.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-  Displays both port numbers and their corresponding service names for open ports.
+4. **Run the tool**:
 
+    Run the script to start the **Evil-Eye Port Scanner**:
 
-
-
-
-
-
-  Requirements
-
-  Python 3.x
-
-  Tkinter (should be included by default in most Python installations)
-
-  Python's socket library (included by default in Python)
-
-  Internet connection (for resolving domain names)
+    ```bash
+    ls
+    ```
+    ```bash
+    cd evil_eye
+    ```
+  ```bash
+    python3 evil_eye.py
+    ```
