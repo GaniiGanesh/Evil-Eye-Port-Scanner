@@ -36,4 +36,3 @@ Evil-Eye Port Scanner is a simple, fast, and multi-threaded tool designed to sca
     ```
   ```bash
     python3 evil_eye.py
-    ```
